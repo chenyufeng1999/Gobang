@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(207, 207, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkerboard{
+    width: 92%;
+    height: 92%;
+    background-color: rgb(89, 155, 212);
+    border-collapse: collapse;
+}
+.checkerboard td{
+    position: relative;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.chess{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    border-radius: 50%;
+    left: -50%;
+    top: -50%;
+    color: red;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    background-color: #fff;
+    
+}
+.black{
+    background-color: #000;
+}
+.red{
+    box-shadow: 0 0 10px red;
+}
